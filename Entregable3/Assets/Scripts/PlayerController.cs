@@ -24,11 +24,4 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void movementRotation(KeyCode key, Vector3 axes)
-    {
-        if (Input.GetKeyDown(key))
-        {
-        transform.rotation *= Quaternion.Euler(axes);
-        }
-    }
 }
